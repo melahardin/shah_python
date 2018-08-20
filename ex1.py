@@ -24,5 +24,31 @@ y = inputInteger("Please type another integer: ")
 z = input("Please type one of the following math operations (+, -, / , *, %, ^): ")
 inputOperation(z)
 
+if z == '+':
+    print('{} + {} = '.format(x, y))
+    print(x + y)
+
+elif z == '-':
+    print('{} - {} = '.format(x, y))
+    print(x - y)
+
+elif z == '*':
+    print('{} * {} = '.format(x, y))
+    print(x * y)
+
+elif z == '%':
+    print('{} % {} = '.format(x, y))
+    print(x % y)
+
+elif z == '^':
+    print('{} ^ {} = '.format(x, y))
+    print(x ** y)
+
+elif z == '/' and y != 0:
+    print('{} / {} = '.format(x, y))
+    print(x / y)
+
+else:
+    print("You have entered 0 and that is an invalid divisor.")
 
 
