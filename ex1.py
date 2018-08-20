@@ -1,4 +1,4 @@
-# prompt user for 2 integer inputs and a symbol(+, -, /, *, %, ^); if not: say unrecognized symbol
+# CALCULATOR: prompts user for 2 integer inputs and a symbol(+, -, /, *, %, ^); if input invalid, say so.
 
 def inputInteger(num):
     while True:
